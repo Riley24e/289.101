@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>layout 1</title>
+        <style>
+            *{ outline: 1px solid black }
+            
+            body{margin: 0;}
+            
+            #container{
+                margin: auto;
+                max-width: 800px;
+                 }
+            #blue{
+                background-color: blue;
+                height: 100px;
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr
+            }
+            #yellow{
+                background-color: yellow;
+                margin: 20px;
+                grid-column: 1/2
+            }
+            #yellow1{
+                background-color: yellow;
+                margin: 20px;
+                grid-column: 2/4
+            }
+            
+            #green{
+                background-color: lime; 
+                height: 400px;
+            }
+            
+            #red{
+                background-color: red;
+                height: 300px;
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr
+            }
+            
+            #yellow2{
+                background-color: yellow;
+                grid-column: 1/4;
+                margin: 20px;
+            }
+            
+            .yellow3{
+                background-color: yellow;
+                margin: 20px;
+                height: 150px;
+            }
+            #blue2{
+                background-color: blue;
+                height: 600px;
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr
+            }
+            
+            #yellow4{
+                background-color: yellow;
+                grid-column: 1/5;
+                margin: 15px;
+                height 100px;
+                    
+            }
+            
+            .yellow5{
+                background-color: yellow;
+                margin: 15px;
+                height: 100px
+                    
+            }
+        
+            
+        </style>
+    </head>
+
+    
+    <body>
+        <div id="container">
+            <div id="blue">
+                <div id="yellow"></div>
+                <div id="yellow1"></div>
+            </div>
+            <div id="green">g</div>
+            <div id="red">
+                <div id="yellow2"></div>
+                <div class="yellow3"></div>
+                <div class="yellow3"></div>
+                <div class="yellow3"></div>
+            </div>
+            <div id="blue2">
+                <div id="yellow4"></div>
+                <div class="yellow5"></div>
+                <div class="yellow5"></div>
+                <div class="yellow5"></div>
+                <div class="yellow5"></div>
+                <div class="yellow5"></div>
+                <div class="yellow5"></div>
+                <div class="yellow5"></div>
+                <div class="yellow5"></div>
+                <div class="yellow5"></div>
+                <div class="yellow5"></div>
+                <div class="yellow5"></div>
+                <div class="yellow5"></div>
+            </div>
+            <div class="green">g
+            </div>
+            <div class="red">r
+            </div>
+            <div id="blue">b</div>
+            
+        </div>
+    </body>
+
+
+
+
+
+</html>
