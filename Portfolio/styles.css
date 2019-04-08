@@ -13,7 +13,8 @@ body{
     font-family: 'Oswald', sans-serif;
     color: black;
     text-align: center;
-    padding-top: 25px
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 #title img{
     height: 50px
@@ -30,7 +31,7 @@ body{
     background-color: white;
     font-family: 'Oswald', sans-serif;
     color: black;
-    padding: 50px
+    padding: 5px;
 }
 .nav{
     max-width:1000px;
