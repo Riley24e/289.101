@@ -1,0 +1,97 @@
+<DOCTYPE html/>
+
+<html>
+
+    <head>
+        <meta charset="utf-8"/>
+        <title>Layout 1</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <link rel="stylesheet" href="css/bootstrap.min.css"/>
+        <style>
+            *{ outline: #FFF solid 8px; }
+            
+            .blue {
+                background-color: #3FB4FF;
+                height: 50px;
+            }
+            .green {
+                background-color: greenyellow;
+                height: 50px;
+            }
+            .orange {
+                background-color: orange;
+                height: 500px;
+            }
+            .maroon {
+                background-color: maroon;
+                height: 250px;
+            }
+            .grey {
+                background-color: gray;
+                height: 100px;   
+            }
+            
+            .purple {
+                background-color: purple;
+                height: 75px;
+            }
+            /* sm */
+            @media (min-width: 576px) {  
+                
+            }
+            /* md */
+            @media (min-width: 768px) { 
+                .blue { height: 50px;}
+                .green { height: 100px;}
+                .orange { height: 500px;}
+                .maroon { height: 500px;}
+            }
+            /* lg */
+            @media (min-width: 992px) { 
+                .blue { height: 50px;}
+                .green { height: 600px;}
+                .orange { height: 600px;}
+                .maroon { height: 600px;}
+                .grey { height: 75px;}
+            }
+            /* xl */
+            @media (min-width: 1200px) { 
+            
+            }
+            
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            
+            <div class="row"> 
+                <div class=" col-12 blue "></div>
+            </div>
+            
+            <div class="row">
+                <div class=" green col-12 col-lg-3"></div>
+                <div class=" orange col-12 col-md-6 row">
+                   
+                    <div class=" grey col-6 col-lg-4"></div>
+                    <div class=" purple col-lg-8 d-none d-lg-block"></div>
+                    <div class=" grey col-6 col-lg-4"></div>
+                    <div class=" purple col-lg-8 d-none d-lg-block"></div>
+                    <div class=" grey col-6 col-lg-4"></div>
+                    <div class=" purple col-lg-8 d-none d-lg-block"></div>
+                    <div class=" grey col-6 col-lg-4"></div>
+                    <div class=" purple col-lg-8 d-none d-lg-block"></div>
+                    <div class=" grey col-6 col-lg-4"></div>
+                    <div class=" purple col-lg-8 d-none d-lg-block"></div>
+                    <div class=" grey col-6 col-lg-4"></div>
+                    <div class=" purple col-lg-8 d-none d-lg-block"></div>
+                </div>
+                <div class=" maroon col-12 col-md-6 col-lg-3"></div>
+            </div>
+            
+            
+        </div>
+       
+    </body>
+
+</html>
