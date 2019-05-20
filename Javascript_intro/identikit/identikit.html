@@ -53,7 +53,7 @@
         <a id="eyes_up_btn">move eyes up</a>
         <a id="eyes_down_btn">move eyes down</a>
         <a id="eyes_closer_btn">move eyes closer together</a>
-        <a id="eyes_further_btn">move eyes further apart</a>
+        <a id="eyes_apart_btn">move eyes further apart</a>
         <a id="eyes_hollow_btn">hollow eyes</a>
         <a id="eyes_solid_btn">solid eyes</a>
         <a id="no_right_eye_btn">no right eye</a>
@@ -76,13 +76,18 @@
         var eye_left_y = 100;
         var eye_right_x = 250;
         var eye_right_y = 100;
+        var mouth_x = 150;
+        var mouth_y = 200;
 
         // set initial positions
         document.getElementById('eye_left').style.left = eye_left_x + 'px';
         document.getElementById('eye_left').style.top = eye_left_y + 'px';
         document.getElementById('eye_right').style.left = eye_right_x + 'px';
         document.getElementById('eye_right').style.top = eye_right_y + 'px';
+        document.getElementById('mouth').style.left = mouth_x + 'px';
+        document.getElementById('mouth').style.left = mouth_y + 'px';
 
+        
         // move eyes up event listener
         document.getElementById('eyes_up_btn').addEventListener('click', function() {
             eye_left_y -= 10;
@@ -105,6 +110,20 @@
             document.getElementById('eye_left').style.top = eye_left_x + 'px';
             eye_right_x -= 10;
             document.getElementById('eye_right').style.top = eye_right_x + 'px';
+        });
+        
+        // move eyes apart event listener
+        document.getElementById('eyes_apart_btn').addEventListener('click', function() {
+            eye_left_x -= 10;
+            document.getElementById('eye_left').style.top = eye_left_x + 'px';
+            eye_right_x += 10;
+            document.getElementById('eye_right').style.top = eye_right_x + 'px';
+        });
+        
+        // change right eye event listener
+        document.getElementById('eye_left').addEventListener('click', function() {
+            
+           
         });
     </script>
 
