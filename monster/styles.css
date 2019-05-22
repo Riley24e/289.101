@@ -7,14 +7,13 @@ html {
             }
 
 body{
-    background-color: white;
+    background-color: lavender;
     margin: 0;
     font-family: 'Lato', sans-serif;
 }
 
 .title{
     font-family: 'Oswald', sans-serif;
-    
     width: 50px;
     text-align: center;
     margin-top: auto;
@@ -23,8 +22,13 @@ body{
     color: darkslategrey;
 }
 
+.title a{
+    color: gainsboro;
+    text-decoration: none;
+}
+
 .header{
-    background-color: skyblue;
+    background-color: cornflowerblue;
     height: 150px;
     
 }
