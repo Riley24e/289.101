@@ -10,6 +10,7 @@ body{
     background-color: lavender;
     margin: 0;
     font-family: 'Lato', sans-serif;
+    
 }
 
 .title{
@@ -41,6 +42,27 @@ body{
     
 }
 
-#group{
+#group{ 
+    max-width:1000;
+    margin-left: auto;
+    margin-right: auto
     
 }
+.location{
+    max-width: 1000px;
+    border: 50px;
+}
+
+.text{
+    margin-top: 20px; 
+}
+
+.text p{
+    font-size: 25px;
+}
+.team{
+    margin: 20px;
+    max-height: 250px;
+    max-width: 460px;
+}
+
